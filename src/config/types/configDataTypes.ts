@@ -13,6 +13,22 @@ export interface SiteDataProps {
 		src: string;
 		alt: string;
 	};
+	// Optional business/contact fields used for LocalBusiness JSON-LD and SEO
+	url?: string;
+	phone?: string;
+	address?: {
+		streetAddress?: string;
+		addressLocality?: string;
+		addressRegion?: string;
+		postalCode?: string;
+		addressCountry?: string;
+	};
+	geo?: {
+		latitude?: string | number;
+		longitude?: string | number;
+	};
+	openingHours?: string[];
+	sameAs?: string[];
 }
 
 // --------------------------------------------------------

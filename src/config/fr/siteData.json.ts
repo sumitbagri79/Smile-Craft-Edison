@@ -20,6 +20,26 @@ const siteData: SiteDataProps = {
 		src: "/images/theme.jpg",
 		alt: "Smile Craft Dental",
 	},
+	// Coordonnées et informations de la clinique. Mettez à jour avec vos informations.
+	url: "https://www.smilecraftedison.com",
+	phone: "",
+	address: {
+		streetAddress: "",
+		addressLocality: "Edison",
+		addressRegion: "NJ",
+		postalCode: "",
+		addressCountry: "US",
+	},
+	geo: {
+		latitude: "",
+		longitude: "",
+	},
+	openingHours: [
+		"Mo-Fr 08:30-17:00"
+	],
+	sameAs: [
+		""
+	],
 };
 
 export default siteData;

@@ -20,6 +20,26 @@ const siteData: SiteDataProps = {
 		src: "/images/theme.jpg",
 		alt: "Smile Craft Dental",
 	},
+	// Add business contact details below. Update these with your real clinic info.
+	url: "https://www.smilecraftedison.com",
+	phone: "", // e.g. "+1-555-555-5555"
+	address: {
+		streetAddress: "",
+		addressLocality: "Edison",
+		addressRegion: "NJ",
+		postalCode: "",
+		addressCountry: "US",
+	},
+	geo: {
+		latitude: "",
+		longitude: "",
+	},
+	openingHours: [
+		"Mo-Fr 08:30-17:00"
+	],
+	sameAs: [
+		"" // add social/profile URLs (Google Business, Facebook, Yelp)
+	],
 };
 
 export default siteData;
