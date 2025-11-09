@@ -1,4 +1,4 @@
-# Welcome to Space Coast!
+# Welcome to Smile Craft Dental, Edison!
 
 This is a medical website template for Astro styled with Tailwind CSS v4 featuring:
 

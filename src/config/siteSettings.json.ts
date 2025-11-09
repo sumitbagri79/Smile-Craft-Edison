@@ -12,12 +12,14 @@ export const defaultLocale = "en" as const;
 export const localeMap = {
 	en: "en-US",
 	fr: "fr-FR",
+	es: "es-ES",
 } as const;
 
 // text to show in the language switcher for each locale
 export const languageSwitcherMap = {
 	en: "EN",
 	fr: "FR",
+	es: "ES",
 	// en: "English",
 	// fr: "Français",
 } as const;

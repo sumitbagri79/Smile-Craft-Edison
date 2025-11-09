@@ -15,6 +15,10 @@ import faqDataFr from "./fr/faqData.json";
 import navDataFr from "./fr/navData.json";
 import siteDataFr from "./fr/siteData.json";
 import testimonialDataFr from "./fr/testimonialData.json";
+import faqDataEs from "./es/faqData.json";
+import navDataEs from "./es/navData.json";
+import siteDataEs from "./es/siteData.json";
+import testimonialDataEs from "./es/testimonialData.json";
 
 export const dataTranslations = {
 	en: {
@@ -28,6 +32,12 @@ export const dataTranslations = {
 		navData: navDataFr,
 		testimonialData: testimonialDataFr,
 		faqData: faqDataFr,
+	},
+	es: {
+		siteData: siteDataEs,
+		navData: navDataEs,
+		testimonialData: testimonialDataEs,
+		faqData: faqDataEs,
 	},
 } as const;
 
@@ -63,6 +73,12 @@ export const textTranslations = {
 		updated: "Mis à jour",
 		nav_cta: "Obtenir le template",
 	},
+	es: {
+		hero_text: "Todo lo que necesitas para un sitio web increíble.",
+		back_to_all_posts: "Volver a todas las publicaciones",
+		updated: "Actualizado",
+		nav_cta: "Obtener la plantilla",
+	},
 } as const;
 
 /**
@@ -93,6 +109,14 @@ export const routeTranslations = {
 		blogKey: "blog",
 		servicesKey: "services",
 	},
+	es: {
+		aboutKey: "acerca-de",
+		categoryKey: "categorias",
+		categoryKey2: "categorias/*",
+		categoryKey3: "categorias",
+		blogKey: "blog",
+		servicesKey: "servicios",
+	},
 } as const;
 
 /**
@@ -109,10 +133,12 @@ export const localizedCollections = {
 	blog: {
 		en: "blog",
 		fr: "blog",
+		es: "blog",
 	},
 	services: {
 		en: "services",
 		fr: "services",
+		es: "services",
 	},
 	// Add more collections/locales as needed
 } as const;
